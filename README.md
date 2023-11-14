@@ -11,7 +11,7 @@ A base de dados escolhida foi a [Music x Mental Health](/base_de_dados/mxmh_surv
 
 ## Código do projeto
 
-O código do projeto pode ser encontrado [aqui](/codigo/README.md)
+O código do projeto pode ser encontrado [aqui](/código/main.ipynb)
 
 ---
 
