@@ -64,3 +64,54 @@ Com isso terminamos a etapa 1, e agora vamos para a etapa 2.
 Antes de dar início a etapa 2, uma coisa é importante de se observar, no **[Código](/código/main.ipynb)** vemos que os casos de ansiedade fica bem distribuido para niveis maiores iguais a 6 e niveis menores que 6, depressão mantém a mesma faixa, insonia e transtorno obssessivo compulsivo não estão bem distribuídos, então teremos que fazer um balanceamento dos dados, para que o modelo não fique enviesado. Também será crucial a leitura de artigos relacionados ao tema, para que possamos definir uma métrica de nível, ou seja a partir de qual valor de nível de ansiedade, insonia, depressão e transtorno obsessivo compulsivo, o modelo irá prever que a pessoa tem ou não tem o problema. Possívelmente, as métricas poderão ser distintas para cada problema, por exemplo, para ansiedade, o modelo poderá prever que a pessoa tem ansiedade se o nível de ansiedade for maior que 5, para insonia, o modelo poderá prever que a pessoa tem insonia se o nível de insonia for maior que 4, para depressão, o modelo poderá prever que a pessoa tem depressão se o nível de depressão for maior que 6, e para transtorno obsessivo compulsivo, o modelo poderá prever que a pessoa tem transtorno obsessivo compulsivo se o nível de transtorno obsessivo compulsivo for maior que 4. Mas isso só será definido após a leitura de artigos relacionados ao tema.
 
 Então antes do início da etapa 2, o foco estará na leitura de artigos relacionados ao tema.
+
+---
+### Informações sobre ansiedade
+
+Foi feito uma pesquisa em alguns artigos relacionados a ansiedade, algumas informações úteis foram tiradas como por exemplo de que ansiedade é algo natural do ser humano, que o prepara para algumas situações como por exemplo antes de alguma prova, apresentação de trabalho etc. Nestes casos, trata-se de uma característica normal da vida dos indivíduos, ou seja, diante das situações difíceis, importantes ou novas é normal as pessoas apresentarem diferentes graus de ansiedade (Lucena-Santos, Pinto-Gouveia & Oliveira, 2015).
+
+Entretanto, essa função evolutiva pode perder a sua função de preparo e desenvolver um quadro patólogico, consequentemente. Este sentimento estimula o indivíduo a entrar em ação, porém, em excesso, faz exatamente o contrário, impedindo as reações (Hales, Yudofsky & Gabbard, 2012).
+
+Com isso a ansiedade até um certo ponto é algo benéfico. O embróglio é descobrir em que nível (0-10) a ansiedade pode se tornar patológica.
+
+
+A maneira prática de se diferenciar ansiedade normal de ansiedade patológica é basicamente avaliar se a reação ansiosa é de curta duração, autolimitada e relacionada ao estímulo do momento ou não. Contudo, devido a natureza da base de dados de não informar sobre a presença ou não de ansiedade, e sobre se é repetitiva ou não, a análise será feita com base no nível de ansiedade informada. 
+
+#### Qual nível será considerado como ansiedade patológica?
+
+Para a consideração desse problema, devemos a partir dos estudos e pesquisa de artigos, definir um nível de ansiedade que será considerado como patológico. Além disso é crucial identificar um parâmetro ideal para a base de dados, ou seja deve-se levar em conta além da pesquisa a base de dados em si, para que o modelo seja o mais preciso possível.
+
+Após análise da distribuição dos dados, identificou-se que um valor limiar de 6 é apropriado para distinguir ansiedade normal de ansiedade patológica.
+
+#### Por que 6?
+
+A base de dados possui 736 entradas, e a distribuição dos dados de ansiedade é a seguinte:
+
+![Distribuição dos dados de Ansiedade](/images/nivel_ansiedade.png)
+
+
+Gráfico 1: Distribuição dos dados de Ansiedade
+
+Como pode ser observado a base de dados está bem distribuída. Tem-se 361 entradas com nível de ansiedade maior que 6, e 375 entradas com nível de ansiedade menor ou igual a 6.
+
+O valor mais próximo de 50% foi para > 6, ou seja seria considerada como ansiedade patológica apenas os valores [7,8,9,10] e como ansiedade normal os valores [0,1,2,3,4,5,6].
+
+Por isso foi escolhido o valor 6, pois assim a base de dados ficará bem distribuída, e o modelo será o mais preciso possível.
+
+
+
+#### Relação entre ansiedade e outras doenças
+
+Do ponto de vista fisiológico, a ansiedade é um estado de funcionamento cerebral que acarreta sintomas neurovegetativos, tais como, insônia, taquicardia, palidez, aumento da respiração, tensão muscular, tremor, tontura, desconforto gastrointestinal, dentre uma série de outras condições (Zamignani & Banaco, 2005; Leahy, 2011).
+
+Além disso a ansiedade é considerada como um sentimento primário, desencadeado por uma ameaça real ou imaginária, que pode ser percebida como perigosa, desconhecida ou estranha. Com isso a ansiedade não é causada por nenhuma outra variável, mas ela pode ser a causa de outras variaveis!
+
+---
+#### Referências
+
+Castillo, A. R. G., Recondo, R., Asbahr, F. R., & Manfro, G. G.. (2000). Transtornos de ansiedade. Brazilian Journal of Psychiatry, 22, 20–23. https://doi.org/10.1590/S1516-44462000000600006
+
+
+LENHARDTK, Gabriela; CALVETTI, Prisla Ücker. Quando a ansiedade vira doença?: Como tratar transtornos ansiosos sob a perspectiva cogntivo-comportamental. Aletheia,  Canoas ,  v. 50, n. 1-2, p. 111-122, dez.  2017 .   Disponível em <http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1413-03942017000100010&lng=pt&nrm=iso>. acessos em  14  nov.  2023.
+
+Neves Guimarães de Carvalho, R., Pereira dos Santos , I. ., Silva Motta , . L., Rodrigues Silva, J. ., Pereira, E. da S., Ferreira de Sousa, J. ., Netto Bellot , . C. ., Duarte de Oliveira, N., & Luiz Lima da Silva, J. . (2022). A ANSIEDADE E O SER ANSIOSO. RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218, 3(12), e3122486. https://doi.org/10.47820/recima21.v3i12.2486
