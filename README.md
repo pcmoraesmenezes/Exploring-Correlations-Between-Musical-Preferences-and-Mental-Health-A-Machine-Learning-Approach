@@ -15,6 +15,10 @@ O código do projeto pode ser encontrado [aqui](/código/main.ipynb)
 
 ---
 
-No momento o artigo não foi iniciado ainda, mas a etapa 1 já foi concluída, e o código do projeto já foi iniciado.
 
-A medida que o artigo for sendo escrito, ele será disponibilizado aqui.
+
+## Estado do Projeto
+
+🚧 **Em Construção**: O artigo ainda não foi iniciado, mas as etapas e o código do projeto estão em andamento. Conforme o artigo for sendo escrito, ele será disponibilizado aqui.
+
+---
