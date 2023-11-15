@@ -115,3 +115,55 @@ Castillo, A. R. G., Recondo, R., Asbahr, F. R., & Manfro, G. G.. (2000). Transto
 LENHARDTK, Gabriela; CALVETTI, Prisla Ücker. Quando a ansiedade vira doença?: Como tratar transtornos ansiosos sob a perspectiva cogntivo-comportamental. Aletheia,  Canoas ,  v. 50, n. 1-2, p. 111-122, dez.  2017 .   Disponível em <http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1413-03942017000100010&lng=pt&nrm=iso>. acessos em  14  nov.  2023.
 
 Neves Guimarães de Carvalho, R., Pereira dos Santos , I. ., Silva Motta , . L., Rodrigues Silva, J. ., Pereira, E. da S., Ferreira de Sousa, J. ., Netto Bellot , . C. ., Duarte de Oliveira, N., & Luiz Lima da Silva, J. . (2022). A ANSIEDADE E O SER ANSIOSO. RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218, 3(12), e3122486. https://doi.org/10.47820/recima21.v3i12.2486
+
+---
+
+### Informações sobre depressão
+
+---
+
+Após a leitura de alguns artigos relacionados a depressão, foi possível tirar algumas informações úteis como por exemplo que a depressão é uma doença que afeta o humor, causando uma tristeza profunda e persistente, que pode durar semanas, meses ou até anos. A depressão pode ser classificada como leve, moderada ou grave, dependendo da intensidade dos sintomas. A depressão é uma doença que pode afetar qualquer pessoa, independentemente da idade, sexo ou condição social. No entanto, as mulheres são mais propensas a desenvolver depressão, pois são mais vulneráveis a alterações hormonais. Além disso, a depressão pode ser causada por fatores genéticos, ambientais, psicológicos e biológicos (Rufino, Leite, Freschi, Venturelli, De Oliveira, Diogo, Morato, Filho, 2018).
+
+A maioria dos pacientes com depressão diz não mais obter gozo
+com as atividades anteriores, e muitos dizem perder o interesse e o afeto pelas pessoas
+(ATKINSON et al., 2002).
+
+#### Qual nível será considerado como depressão patológica?
+
+Esse é o mesmo problema que tivemos com a ansiedade, ou seja, devemos a partir dos estudos e pesquisa de artigos, definir um nível de depressão que será considerado como patológico. Além disso é crucial identificar um parâmetro ideal para a base de dados, ou seja deve-se levar em conta além da pesquisa a base de dados em si, para que o modelo seja o mais preciso possível.
+
+O diagnóstico da depressão é feito a partir da presença de determinados sintomas que se
+manifestam numa certa duração e intensidade também toma como base a história de vida do
+paciente. Como o estado depressivo pode ser um sintoma secundário a várias doenças, sempre é
+importante estabelecer o diagnóstico diferencial (GRUBITS; GUIMARÃES, 2007).
+
+É crucial distinguir a depressão clínica da tristeza transitória resultante de eventos desafiadores inerentes à vida cotidiana, como a perda de um ente querido, desilusões amorosas, conflitos familiares e dificuldades financeiras. Indivíduos que não sofrem da doença podem experimentar tristeza em resposta a adversidades, mas geralmente conseguem superá-las. Em contrapartida, nos casos de depressão clínica, a tristeza e a falta de ânimo persistem, mesmo na ausência de uma causa aparente. O interesse por atividades prazerosas e que costumavam proporcionar bem-estar diminui drasticamente.
+
+O diagnóstico de depressão geralmente requer a presença de vários sintomas por um período prolongado, como pelo menos duas semanas.
+
+Eis o problema da base de dados, devido a sua natureza de fornecer apenas um valor que vai de 0 a 10, não é possível saber se a pessoa está com depressão clínica ou não. Portanto devido a natureza da base de dados, deve-se estipular um valor de nível de depressão que será considerado como patológico.
+
+Após análise da distribuição dos dados, identificou-se que um valor limiar de 5 é apropriado para distinguir depressão normal de depressão patológica.
+
+#### Por que 5?
+
+A depressão, ao contrário da ansiedade, não é considerada uma resposta natural inerente à condição humana. Embora as pessoas possam experimentar tristeza em resposta a eventos adversos, a depressão é percebida como uma condição que não faz parte intrínseca da natureza humana, mas sim algo que pode se desenvolver em determinadas circunstâncias.
+
+![Distribuição dos dados de Depressão](/images/nivel_depressao.png)
+
+Gráfico 2: Distribuição dos dados de Depressão
+
+Como pode ser observado a base de dados está bem distribuída. Diferente da ansiedade temos grandes valores próximos a 0, e valores considerados a partir de 6.
+
+![Gráfico de Pizza](/images/grafico_de_pizza_depressao.png)
+
+Gráfico 3: Gráfico de Pizza de Depressão
+
+Analisando a distribuição através do gráfico de pizza, tem-se que 54,3% dos dados estão entre 5 e 10, e 45,7% dos dados estão entre 0 e 4. Ou seja, se considerarmos o valor 5 como patológico, teremos uma base de dados bem distribuída, e o modelo será o mais preciso possível.
+
+
+
+#### Referências
+
+Rufino, S., Leite, R. S., Freschi, L., Venturelli, V. K., De Oliveira, E. S., Diogo, A., Morato, M., Filho. (2018). Revista Saúde em Foco - Edição nº 10. Revista Saúde em Foco, nº 10, 841-842. Obtido em https://portal.unisepe.com.br/unifia/wp-content/uploads/sites/10001/2018/11/095_ASPECTOS-GERAIS-SINTOMAS-E-DIAGN%C3%93STICO-DA-DEPRESS%C3%83O.pdf
+
