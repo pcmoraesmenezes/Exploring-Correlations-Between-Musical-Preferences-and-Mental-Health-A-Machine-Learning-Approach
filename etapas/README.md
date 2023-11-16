@@ -167,3 +167,49 @@ Analisando a distribuição através do gráfico de pizza, tem-se que 54,3% dos 
 
 Rufino, S., Leite, R. S., Freschi, L., Venturelli, V. K., De Oliveira, E. S., Diogo, A., Morato, M., Filho. (2018). Revista Saúde em Foco - Edição nº 10. Revista Saúde em Foco, nº 10, 841-842. Obtido em https://portal.unisepe.com.br/unifia/wp-content/uploads/sites/10001/2018/11/095_ASPECTOS-GERAIS-SINTOMAS-E-DIAGN%C3%93STICO-DA-DEPRESS%C3%83O.pdf
 
+
+### Informações sobre insonia
+
+---
+
+A insônia é caracterizada por um disturbio no sono que pode afetar antes de dormir, durante o sono ou após o sono. A insônia pode ser causada por diversos fatores como por exemplo estresse, ansiedade, depressão, problemas de saúde, etc.
+
+A insônia primária é de fato um distúrbio do sono caracterizado por dificuldades em iniciar e/ou manter o sono, além da sensação de não ter um sono reparador por pelo menos um mês. Este distúrbio, geralmente crônico, costuma afetar adultos jovens, sendo mais comum em mulheres. Em termos de incidência, está presente em 12,5% a 22,2% dos pacientes com insônia crônica, sendo superada apenas pela insônia associada à depressão.
+
+No contexto polissonográfico, a insônia primária está associada a alterações na indução, continuidade e estrutura do sono. É importante distinguir a insônia primária de outros tipos de insônia, como aquela relacionada à má higiene do sono, síndrome depressiva ou transtorno de ansiedade generalizada.
+
+Além disso é válido mencionar que transtornos do humor e de ansiedade estão presentes em 30 a 50% dos pacientes com insônia.
+
+
+No entanto, a alteração crônica do sono, que caracteriza a
+insônia primária, constitui um fator de risco para o aparecimento posterior de um transtorno de ansiedade ou depressão.
+
+Observa-se novamente a necessidade de descobrir o tempo de incidência da insônia para que seja possível distinguir a insônia primária de outros tipos de insônia.
+
+#### Qual nível será considerado como insonia patológica?
+
+Esse é o mesmo problema que tivemos com a ansiedade e depressão, ou seja, devemos a partir dos estudos e pesquisa de artigos, definir um nível de insonia que será considerado como patológico. Além disso é crucial identificar um parâmetro ideal para a base de dados, ou seja deve-se levar em conta além da pesquisa a base de dados em si, para que o modelo seja o mais preciso possível.
+
+A natureza da base de dados não informa a incidência da insonia, ou seja não informa se a pessoa tem insonia a muito tempo ou a pouco tempo. Portanto, a análise será feita com base no nível de insonia informada.
+
+A conclusão obtida após analisar a distribuição dos dados e artigos relacionados, foi de 3 ser o valor limiar para distinguir insonia normal de insonia patológica.
+
+#### Por que 3?
+
+![Distribuição dos dados de Insonia](/images/nivel_insonia.png)
+
+Gráfico 4: Distribuição dos dados de Insonia
+
+Com a analise da distribuição dos dados, observa-se que ela está muito distribuída a esquerda, ou seja quanto mais próximo de 0, maior a quantidade de dados. Por isso foi escolhido o valor 3, pois assim a base de dados ficará bem distribuída, e o modelo será o mais preciso possível.
+
+![Gráfico de Pizza](/images/grafico_de_pizza_insonia.png)
+
+Gráfico 5: Gráfico de Pizza de Insonia
+
+A distribuição dos dados então, ficou de 47,4% para valores maiores que 3 [4,5,6,..10] e 52,6% para valores menores que 3 [0,1,2,3]. Ou seja, se considerarmos o valor 3 como patológico, teremos uma base de dados bem distribuída, e o modelo será o mais preciso possível.
+
+
+#### Referências
+
+Rev Bras Med Fam Comunidade. Rio de Janeiro, 2016 Jan-Dez; 11(38):1-14
+
