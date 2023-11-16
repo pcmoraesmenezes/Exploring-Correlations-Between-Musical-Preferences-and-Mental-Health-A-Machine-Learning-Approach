@@ -213,3 +213,49 @@ A distribuição dos dados então, ficou de 47,4% para valores maiores que 3 [4,
 
 Rev Bras Med Fam Comunidade. Rio de Janeiro, 2016 Jan-Dez; 11(38):1-14
 
+---
+
+### Informações sobre transtorno obsessivo compulsivo
+
+---
+
+O Transtorno Obsessivo-Compulsivo (TOC) é uma condição psiquiátrica caracterizada pela presença de pensamentos intrusivos e persistentes, conhecidos como obsessões, que causam ansiedade significativa, desconforto ou angústia. Essas obsessões desencadeiam a necessidade de realizar comportamentos repetitivos chamados compulsões, que são tentativas de aliviar a ansiedade associada às obsessões.
+
+As obsessões são pensamentos, imagens ou impulsos indesejados que se repetem na mente da pessoa, muitas vezes gerando um medo irracional. As compulsões são comportamentos ou rituais realizados em resposta às obsessões, com o objetivo de reduzir a ansiedade ou prevenir algum evento temido
+
+O DSM-IV e o ICD-10 fornecem critérios diagnósticos para o TOC, que incluem a presença de obsessões e/ou compulsões que causam angústia ou comprometimento do funcionamento.
+
+
+#### Qual nível será considerado como transtorno obsessivo compulsivo patológico?
+
+A característica principal do TOC é a presença de obsessões e/ou compulsões que causam angústia ou comprometimento do funcionamento. A natureza da base de dados não informa se a pessoa tem ou não tem TOC, ou seja não informa se a pessoa tem obsessões e/ou compulsões que causam angústia ou comprometimento do funcionamento. Portanto, a análise será feita com base no nível de transtorno obsessivo compulsivo informada.
+
+A conclusão obtida após analisar a distribuição dos dados e artigos relacionados, foi de 2 ser o valor limiar para distinguir transtorno obsessivo compulsivo normal de transtorno obsessivo compulsivo patológico.
+
+#### Por que 2?
+
+![Distribuição dos dados de Transtorno Obsessivo Compulsivo](/images/nivel_toc.png)
+
+Gráfico 6: Distribuição dos dados de Transtorno Obsessivo Compulsivo
+
+Observando o gráfico, verifica-se uma distribuição muito grande a esquerda, ou seja quanto mais próximo de 0, maior a quantidade de dados. Por isso foi escolhido o valor 2, pois assim a base de dados ficará bem distribuída, e o modelo será o mais preciso possível.
+
+![Gráfico de Pizza](/images/grafico_de_pizza_toc.png)
+
+Gráfico 7: Gráfico de Pizza de Transtorno Obsessivo Compulsivo
+
+A distribuição dos dados então, ficou de 53,4% para valores maiores que 2 [2,3,4,5,..10] e 46,6% para valores menores que 2 [0,1]. Ou seja, se considerarmos o valor 2 como patológico, teremos uma base de dados bem distribuída, e o modelo será o mais preciso possível.
+
+
+
+#### Referências
+
+Rosario-Campos, M. C. do ., & Mercadante, M. T.. (2000). Transtorno obsessivo-compulsivo. Brazilian Journal of Psychiatry, 22, 16–19. https://doi.org/10.1590/S1516-44462000000600005
+
+GOMES, Cema Cardona; COMIS, Thiago Osório; ALMEIDA, Rosa Maria Martins de. Transtorno obsessivo-compulsivo nas diferentes faixas etárias. Aletheia,  Canoas ,  n. 33, p. 138-150, dez.  2010 .   Disponível em <http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1413-03942010000300012&lng=pt&nrm=iso>. acessos em  16  nov.  2023.
+
+DSM-IV:
+American Psychiatric Association. (1994). Diagnostic and statistical manual of mental disorders (4th ed.). Washington, DC: Author.
+
+ICD-10:
+World Health Organization. (1992). International statistical classification of diseases and related health problems (10th ed.). Geneva: Author.
