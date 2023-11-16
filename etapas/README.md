@@ -259,3 +259,7 @@ American Psychiatric Association. (1994). Diagnostic and statistical manual of m
 
 ICD-10:
 World Health Organization. (1992). International statistical classification of diseases and related health problems (10th ed.). Geneva: Author.
+
+---
+
+Agora com os valores limiares definidos, podemos dar início a etapa 2.
