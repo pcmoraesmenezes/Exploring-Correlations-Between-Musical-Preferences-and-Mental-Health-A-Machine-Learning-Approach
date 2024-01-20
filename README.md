@@ -1,24 +1,19 @@
-# Artigo-Cientifico
-Esse repositório será responsável por conter o artigo cientifico elaborado para a disciplina 1 - Tópicos Especiais I: Introdução a Ciência de Dados  - Mestrado em Estatística Aplicada e Biometria
+**# Scientific-Paper**
 
-## Etapas
+This repository will be responsible for containing the scientific paper prepared for the course "Special Topics I: Introduction to Data Science - Master's in Applied Statistics and Biometrics."
 
-As etapas podem ser encontradas [aqui](/etapas/README.md)
+## Dataset
 
-## Base de dados
+The chosen dataset is the [Music x Mental Health](/base_de_dados/mxmh_survey_results.csv) dataset, which can also be found [here](https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results).
 
-A base de dados escolhida foi a [Music x Mental Health](/base_de_dados/mxmh_survey_results.csv), ou pode ser encontrada nesse [Link](https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results).
+## Project Code
 
-## Código do projeto
-
-O código do projeto pode ser encontrado [aqui](/código/main.ipynb)
+The project code can be found [here](/código/main.ipynb).
 
 ---
 
+## Project Status
 
-
-## Estado do Projeto
-
-🚧 **Em Construção**: O artigo ainda não foi iniciado, mas as etapas e o código do projeto estão em andamento. Conforme o artigo for sendo escrito, ele será disponibilizado aqui.
+🚧 **Under Construction**: The paper has not yet been started, but the project's stages and code are in progress. As the paper is being written, it will be made available here.
 
 ---
